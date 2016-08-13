@@ -1,5 +1,7 @@
 # comm-setup
-How to set up reasonably secure communications with friends and family
+How to set up reasonably secure communications with friends and family.
+
+> Use signal. Use tor.
 
 ## Ricochet
 
