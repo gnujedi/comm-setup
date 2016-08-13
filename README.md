@@ -6,14 +6,60 @@ How to set up reasonably secure communications with friends and family.
 
 ## Ricochet
 
+> Ricochet is a different approach to instant messaging that **doesn't trust anyone** in protecting your privacy.
+
+> * *Eliminate metadata*. Nobody knows who you are, who you talk to, or what you say.
+> * *Stay anonymous*. Share what you want, without sharing your identity and location.
+> * *Nobody in the middle*. There are no servers to monitor, censor, or hack.
+> * *Safe by default*. Security isn't secure until it's automatic and easy to use.
+
 ## Conversations
+
+> A free and open source Jabber/XMPP client for Android. Easy to use, reliable, battery friendly. With built-in support for images, group chats and e2e encryption.
+
+> Design principles
+* Be as beautiful and easy to use as possible without sacrificing security or privacy
+* Rely on existing, well established protocols
+* Do not require a Google Account or specifically Google Cloud Messaging (GCM)
+* Require as little permissions as possible
+
+> Features
+* End-to-end encryption with either OMEMO, OTR or OpenPGP
+* Sending and receiving images
+* Intuitive UI that follows Android Design guidelines
+* Pictures / Avatars for your Contacts
+* Syncs with desktop client
+* Conferences (with support for bookmarks)
+* Address book integration
+* Multiple Accounts / unified inbox
+* Very low impact on battery life
+
+Conversations has OMEMO, a fork of the Signal protocol
+
+> OMEMO gives you all the advantages you would expect from a modern-day encryption protocol like Future and Forward Secrecy and deniability while allowing you to keep the benefits of message synchronization and offline delivery. OMEMO not only gives you a better encryption features than OpenPGP and OTR but is also much easier to setup. OMEMO is the encryption you can actually use in your daily life. Turn it on once and forget you ever did.
+
+*And*, it supports the Tor network.
 
 ## Signal
 
+> Privacy is possible, Signal makes it easy.
+
+> Using Signal, you can communicate instantly while avoiding SMS fees, create groups so that you can chat in real time with all your friends at once, and share media or attachments all with complete privacy. The server never has access to any of your communication and never stores any of your data.
+
+> * Say Anything. Signal uses an advanced end to end encryption protocol that provides privacy for every message every time.
+* Open Source. Signal is Free and Open Source, enabling anyone to verify its security by auditing the code. Signal is the only private messenger that uses open source peer-reviewed cryptographic protocols to keep your messages safe.
+* Be Yourself - Signal uses your existing phone number and address book. There are no separate logins, usernames, passwords, or PINs to manage or lose.
+* Group Chat. Signal allows you to create encrypted groups so you can have private conversations with all your friends at once. Not only are the messages encrypted, but the Signal server never has access to any group metadata such as the membership list, group title, or group icon.
+* Fast. The Signal protocol is designed to operate in the most constrained environment possible. Using Signal, messages are instantly delivered to friends.
+* Speak Freely - Make crystal-clear phone calls to people who live across town, or across the ocean, with no long-distance charges.
+
 ## Ring
+
+> Ring is a free software for communication that allows its users to make audio or video calls, in pairs or groups, and to send messages, safely and freely, in confidence.
 
 ## Syncthing
 
+> Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
 
 ---
 
