@@ -1,13 +1,16 @@
 # comm-setup
 How to set up reasonably secure communications with friends and family
 
-## Desktop
+## Ricochet
 
-### Ricochet
+## Conversations
 
-## Mobile
+## Signal
 
-### Conversations
+## Ring
+
+## Syncthing
+
 
 ---
 
