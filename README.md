@@ -61,8 +61,6 @@ Conversations has OMEMO, a fork of the Signal protocol
 
 ![Signal Screenshot](https://whispersystems.org/assets/header/signal-header-3928749d381ba96d54fc66a0673114c2.jpg)
 
-![Signal phone call screenshot](https://whispersystems.org/assets/screenshots/signal-call-framed-13344cef4aac7e9c2796b1fb4b329ca8.png)
-
 > Privacy is possible, Signal makes it easy.
 
 > Using Signal, you can communicate instantly while avoiding SMS fees, create groups so that you can chat in real time with all your friends at once, and share media or attachments all with complete privacy. The server never has access to any of your communication and never stores any of your data.
