@@ -60,7 +60,7 @@ Conversations has OMEMO, a fork of the Signal protocol
 
 ## Signal
 
-Signal is an app that replaces your default SMS app, and sends secure messages to others who also have the app. It also supports secure phone calling.
+Signal is an app that sends secure messages to others who also have the app. It also supports secure phone calling.
 
 ![Signal Screenshot](https://whispersystems.org/assets/header/signal-header-3928749d381ba96d54fc66a0673114c2.jpg)
 
@@ -75,13 +75,20 @@ Signal is an app that replaces your default SMS app, and sends secure messages t
 * Fast. The Signal protocol is designed to operate in the most constrained environment possible. Using Signal, messages are instantly delivered to friends.
 * Speak Freely - Make crystal-clear phone calls to people who live across town, or across the ocean, with no long-distance charges.
 
+You can use [https://silence.im/](Silence.im) if you want for text messages. It's a fork of the messaging part of Signal. It doesn't require Google dependencies.
+
+
 ## Ring
+
+A video chat messenger that has desktop and mobile support. Use this in place of skype. It's peer-to-peer and encrypted by default.
 
 ![ring screenshot](https://ring.cx/sites/ring.cx/files/styles/desktop_big/public/screens/sfl_ring_captureecrandesktop-en-elcapitan_0.jpg?itok=8hsFx5Su)
 
 > Ring is a free software for communication that allows its users to make audio or video calls, in pairs or groups, and to send messages, safely and freely, in confidence.
 
 ## Syncthing
+
+Syncs files between devices. Use it to share files with family and to backup files from your phone to your desktop.
 
 ![Syncthing screenshot](https://syncthing.net/images/screenshot-720.jpg)
 
