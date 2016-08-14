@@ -27,7 +27,7 @@ Ricochet and Conversations both utilize the Tor network to keep you safer.
 
 ## Conversations
 
-An amazing messenger for Android. This is the primary messenger my family uses to stay in touch. You'll need [Orbot]() which is Tor for Android. I recommend using [F-droid's]() repository to download Orbot and Conversations. F-droid is a 3rd party app store that contains all free software (free as in free beer and free as in freedom).
+An amazing messenger for Android. This is the primary messenger my family uses to stay in touch. You'll need [Orbot](https://guardianproject.info/apps/orbot/) which is Tor for Android. I recommend using [F-droid's](https://f-droid.org/) repository to download Orbot and Conversations. F-droid is a 3rd party app store that contains all free software (free as in free beer and free as in freedom).
 
 ![Conversations screenshot](https://conversations.im/images/screenshot_encryption_selection.jpg)
 
@@ -60,7 +60,7 @@ Conversations has OMEMO, a fork of the Signal protocol
 
 ## Signal
 
-Signal is an app that sends secure messages to others who also have the app. It also supports secure phone calling.
+Signal is an app that sends secure messages to others who also have the app and can replace your default SMS app. It also supports secure phone calling.
 
 ![Signal Screenshot](https://whispersystems.org/assets/header/signal-header-3928749d381ba96d54fc66a0673114c2.jpg)
 
