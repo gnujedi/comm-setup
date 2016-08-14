@@ -4,9 +4,11 @@ How to set up reasonably secure communications with friends and family.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/Snowden">@snowden</a> OPSEC guide:<br>- use Signal<br>- use Tor<br>- use full disk encryption<br>- use a password manager<br>- use two factor auth<br><br>Solid basics.</p>&mdash; the grugq (@thegrugq) <a href="https://twitter.com/thegrugq/status/668767879299399682">November 23, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+This guide assumes you have an Android type device and a laptop. You *should* encrypt your device, get a password manager (stop reusing passwords for goodness sakes!), and use Tor. This guide will run you through putting Tor onto your device, and getting secure communications setup for your friends/family/coworkers/anyone else.
+
 ## Ricochet
 
-Ricochet is an instant messenger for the desktop that is simple and easy to use. If I have a laptop open, this is my go to messenger with family.
+Ricochet is an instant messenger for the desktop that is simple and easy to use. If I have a laptop open, this is my go to messenger with family. Currently, it only supports text, but it gives the best security and usuability. 
 
 ![Ricochet Screenshot](ricochetscreen.png)
 
@@ -25,7 +27,7 @@ Ricochet and Conversations both utilize the Tor network to keep you safer.
 
 ## Conversations
 
-An amazing messenger for Android. This is the primary messenger my family uses to stay in touch. You'll need [Orbot]() which is Tor for Android. I recommend using [F-droid's]() repository to download Orbot and Conversations. 
+An amazing messenger for Android. This is the primary messenger my family uses to stay in touch. You'll need [Orbot]() which is Tor for Android. I recommend using [F-droid's]() repository to download Orbot and Conversations. F-droid is a 3rd party app store that contains all free software (free as in free beer and free as in freedom).
 
 ![Conversations screenshot](https://conversations.im/images/screenshot_encryption_selection.jpg)
 
@@ -58,6 +60,7 @@ Conversations has OMEMO, a fork of the Signal protocol
 
 ## Signal
 
+Signal is an app that replaces your default SMS app, and sends secure messages to others who also have the app. It also supports secure phone calling.
 
 ![Signal Screenshot](https://whispersystems.org/assets/header/signal-header-3928749d381ba96d54fc66a0673114c2.jpg)
 
