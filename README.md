@@ -15,11 +15,17 @@ Ricochet is an instant messenger for the desktop that is simple and easy to use.
 > * *Nobody in the middle*. There are no servers to monitor, censor, or hack.
 > * *Safe by default*. Security isn't secure until it's automatic and easy to use.
 
-It uses the [Tor network]() in order to anonymize you. What's the Tor network?
+It uses the [Tor network](https://www.torproject.org/) in order to anonymize you. What's the Tor network? Click the image below to watch a short animation about the Tor network.
 
 [![Tor Project Animation](torvideoscreen.png)](https://www.youtube.com/watch?v=JWII85UlzKw)
 
+Ricochet and Conversations both utilize the Tor network to keep you safer.
+
 ## Conversations
+
+An amazing messenger for Android. This is the primary messenger my family uses to stay in touch. You'll need [Orbot]() which is Tor for Android. I recommend using [F-droid's]() repository to download Orbot and Conversations. 
+
+Conversations is:
 
 > A free and open source Jabber/XMPP client for Android. Easy to use, reliable, battery friendly. With built-in support for images, group chats and e2e encryption.
 
