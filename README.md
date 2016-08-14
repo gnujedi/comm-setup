@@ -27,6 +27,8 @@ Ricochet and Conversations both utilize the Tor network to keep you safer.
 
 An amazing messenger for Android. This is the primary messenger my family uses to stay in touch. You'll need [Orbot]() which is Tor for Android. I recommend using [F-droid's]() repository to download Orbot and Conversations. 
 
+![Conversations screenshot](https://conversations.im/images/screenshot_encryption_selection.jpg)
+
 Conversations is:
 
 > A free and open source Jabber/XMPP client for Android. Easy to use, reliable, battery friendly. With built-in support for images, group chats and e2e encryption.
