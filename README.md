@@ -19,7 +19,7 @@ Ricochet is an instant messenger for the desktop that is simple and easy to use.
 
 It uses the [Tor network](https://www.torproject.org/) in order to anonymize you. What's the Tor network? Click the image below to watch a short animation about the Tor network.
 
-[![Tor Project Animation](torvideoscreen.png)](https://www.youtube.com/watch?v=JWII85UlzKw)
+[![Tor Project Animation](https://guardianproject.info/wp-content/uploads/2010/02/featuregraphic.png)](https://www.youtube.com/watch?v=JWII85UlzKw)
 
 Ricochet and Conversations both utilize the Tor network to keep you safer.
 
