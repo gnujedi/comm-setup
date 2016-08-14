@@ -6,7 +6,7 @@ How to set up reasonably secure communications with friends and family.
 
 This guide assumes you have an Android type device and a laptop. You *should* encrypt your device, get a password manager (stop reusing passwords for goodness sakes!), and use Tor. This guide will run you through putting Tor onto your device, and getting secure communications setup for your friends/family/coworkers/anyone else.
 
-## Ricochet
+## [Ricochet](https://www.ricochet.im/)
 
 Ricochet is an instant messenger for the desktop that is simple and easy to use. If I have a laptop open, this is my go to messenger with family. Currently, it only supports text, but it gives the best security and usuability. 
 
@@ -24,6 +24,15 @@ It uses the [Tor network](https://www.torproject.org/) in order to anonymize you
 [![Tor Project Animation](https://guardianproject.info/wp-content/uploads/2010/02/featuregraphic.png)](https://www.youtube.com/watch?v=JWII85UlzKw)
 
 Ricochet and Conversations both utilize the Tor network to keep you safer.
+
+### How to set it up
+
+If you're on GNU/Linux running Debian Stretch or higher, simply <code>sudo apt-get install ricochet-im</code>
+
+All other systems go to the ricochet.im main page and select your operating system [here](https://www.ricochet.im/)
+
+Set it up with someone else and add them as a contact.
+
 
 ## Conversations
 
@@ -58,6 +67,18 @@ Conversations has OMEMO, a fork of the Signal protocol
 
 *And*, it supports the Tor network.
 
+### How to set it up
+
+1. Install F-droid
+2. Add the Guardian Projects repository to F-droid and refresh
+3. Install Orbot
+4. Install Conversations
+5. Open conversations and tap "create account"
+6. Pick a username
+7. on the add account screen, go to the upper right menu, click settings
+8. In the settings menu, go all the way down to expert settings, and select "connect via tor", 
+9. Go back and finish the registration process
+
 ## Signal
 
 Signal is an app that sends secure messages to others who also have the app and can replace your default SMS app. It also supports secure phone calling.
@@ -77,6 +98,13 @@ Signal is an app that sends secure messages to others who also have the app and 
 
 You can use [https://silence.im/](Silence.im) if you want for text messages. It's a fork of the messaging part of Signal. It doesn't require Google dependencies.
 
+### How to set it up
+
+1. Go to the Google Play Store and install Signal
+2. Register with a phone number
+3. Sync with your current contacts
+4. Set it as your default SMS app
+5. Lock down the app with a passcode
 
 ## Ring
 
@@ -86,6 +114,9 @@ A video chat messenger that has desktop and mobile support. Use this in place of
 
 > Ring is a free software for communication that allows its users to make audio or video calls, in pairs or groups, and to send messages, safely and freely, in confidence.
 
+### How to set it up
+
+
 ## Syncthing
 
 Syncs files between devices. Use it to share files with family and to backup files from your phone to your desktop.
@@ -93,6 +124,9 @@ Syncs files between devices. Use it to share files with family and to backup fil
 ![Syncthing screenshot](https://syncthing.net/images/screenshot-720.jpg)
 
 > Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
+
+### How to set it up
+
 
 ---
 
