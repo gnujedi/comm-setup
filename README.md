@@ -6,12 +6,18 @@ How to set up reasonably secure communications with friends and family.
 
 ## Ricochet
 
+Ricochet is an instant messenger for the desktop that is simple and easy to use. If I have a laptop open, this is my go to messenger with family.
+
 > Ricochet is a different approach to instant messaging that **doesn't trust anyone** in protecting your privacy.
 
 > * *Eliminate metadata*. Nobody knows who you are, who you talk to, or what you say.
 > * *Stay anonymous*. Share what you want, without sharing your identity and location.
 > * *Nobody in the middle*. There are no servers to monitor, censor, or hack.
 > * *Safe by default*. Security isn't secure until it's automatic and easy to use.
+
+It uses the [Tor network]() in order to anonymize you. What's the Tor network?
+
+[![Tor Project Animation](toranimation.gif)](https://www.youtube.com/watch?v=JWII85UlzKw)
 
 ## Conversations
 
