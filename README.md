@@ -8,6 +8,8 @@ How to set up reasonably secure communications with friends and family.
 
 Ricochet is an instant messenger for the desktop that is simple and easy to use. If I have a laptop open, this is my go to messenger with family.
 
+![Ricochet Screenshot](ricochetscreen.png)
+
 > Ricochet is a different approach to instant messaging that **doesn't trust anyone** in protecting your privacy.
 
 > * *Eliminate metadata*. Nobody knows who you are, who you talk to, or what you say.
