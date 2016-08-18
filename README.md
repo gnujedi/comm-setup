@@ -100,8 +100,6 @@ Signal is an app that sends secure messages to others who also have the app and 
 * Fast. The Signal protocol is designed to operate in the most constrained environment possible. Using Signal, messages are instantly delivered to friends.
 * Speak Freely - Make crystal-clear phone calls to people who live across town, or across the ocean, with no long-distance charges.
 
-You can use [https://silence.im/](Silence.im) if you want for text messages. It's a fork of the messaging part of Signal. It doesn't require Google dependencies.
-
 ### How to set it up
 
 1. Go to the Google Play Store and install Signal
@@ -120,6 +118,12 @@ A video chat messenger that has desktop and mobile support. Use this in place of
 
 ### How to set it up
 
+If you're on GNU/Linux running Debian Stretch or higher, simply <code>sudo apt-get install ring</code>
+
+All other systems, go [here](https://ring.cx/en/download) to download Ring for your system.
+
+You can use Ring on your Android to video chat privately.
+
 
 ## [Syncthing](https://syncthing.net/)
 
@@ -131,6 +135,11 @@ Syncs files between devices. Use it to share files with family and to backup fil
 
 ### How to set it up
 
+If you're on GNU/Linux running Debian Stretch or higher, simply <code>sudo apt-get install syncthing</code>
+
+All other systems, go [here](https://syncthing.net/) to download Syncthing for your system.
+
+You can setup Syncthing on your Android to easily sync the photos you take to any other system you have Syncthing installed on.
 
 ---
 
