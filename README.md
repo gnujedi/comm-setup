@@ -1,6 +1,9 @@
 # comm-setup
 How to set up reasonably secure communications with friends and family.
 
+![Use Signal. Use Tor](https://pbs.twimg.com/media/CqF-yfCXgAAL91i.jpg:large)
+*Image credit [@xor](https://twitter.com/xor)*
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/Snowden">@snowden</a> OPSEC guide:<br>- use Signal<br>- use Tor<br>- use full disk encryption<br>- use a password manager<br>- use two factor auth<br><br>Solid basics.</p>&mdash; the grugq (@thegrugq) <a href="https://twitter.com/thegrugq/status/668767879299399682">November 23, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -19,9 +22,7 @@ Ricochet is an instant messenger for the desktop that is simple and easy to use.
 > * *Nobody in the middle*. There are no servers to monitor, censor, or hack.
 > * *Safe by default*. Security isn't secure until it's automatic and easy to use.
 
-It uses the [Tor network](https://www.torproject.org/) in order to anonymize you. What's the Tor network? Click the image below to watch a short animation about the Tor network.
-
-[![Tor Project Animation](https://guardianproject.info/wp-content/uploads/2010/02/featuregraphic.png)](https://www.youtube.com/watch?v=JWII85UlzKw)
+It uses the [Tor network](https://www.torproject.org/) in order to anonymize you. What's the Tor network? Watch the [Tor Project Animation](https://www.youtube.com/watch?v=JWII85UlzKw). A quick explanation is that Tor hides your location from people watching your connection (NSA and Facebook alike) and thus it *can* make you anonymous.
 
 Ricochet and Conversations both utilize the Tor network to keep you safer.
 
