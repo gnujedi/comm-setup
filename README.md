@@ -38,7 +38,7 @@ All other systems go to the ricochet.im main page and select your operating syst
 Set it up with someone else and add them as a contact.
 
 
-## Conversations
+## [Conversations](https://conversations.im/)
 
 An amazing messenger for Android. This is the primary messenger my family uses to stay in touch. You'll need [Orbot](https://guardianproject.info/apps/orbot/) which is Tor for Android. I recommend using [F-droid's](https://f-droid.org/) repository to download Orbot and Conversations. F-droid is a 3rd party app store that contains all free software (free as in free beer and free as in freedom).
 
@@ -83,7 +83,7 @@ Conversations has OMEMO, a fork of the Signal protocol
 8. In the settings menu, go all the way down to expert settings, and select "connect via tor", 
 9. Go back and finish the registration process
 
-## Signal
+## [Signal](https://whispersystems.org/)
 
 Signal is an app that sends secure messages to others who also have the app and can replace your default SMS app. It also supports secure phone calling.
 
@@ -110,7 +110,7 @@ You can use [https://silence.im/](Silence.im) if you want for text messages. It'
 4. Set it as your default SMS app
 5. Lock down the app with a passcode
 
-## Ring
+## [Ring](https://ring.cx/)
 
 A video chat messenger that has desktop and mobile support. Use this in place of skype. It's peer-to-peer and encrypted by default.
 
@@ -121,7 +121,7 @@ A video chat messenger that has desktop and mobile support. Use this in place of
 ### How to set it up
 
 
-## Syncthing
+## [Syncthing](https://syncthing.net/)
 
 Syncs files between devices. Use it to share files with family and to backup files from your phone to your desktop.
 
