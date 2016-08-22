@@ -149,7 +149,9 @@ Although you have secure ways to communicate, you also need to secure your endpo
 
 Even if you're not worried about the NSA, endpoint security is the weakest link. You need to encrypt your device, switch to a privacy respecting email, use a password manager, turn on 2-factor-authentication, use the tor browser, and ensure Firefox is set up to preserve your privacy.
 
-<!--### Device encryption-->
+### Device encryption
+
+You should encrypt your device. On Android, go to your security settings and select the option to encrypt your device.
 
 
 
