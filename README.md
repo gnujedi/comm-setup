@@ -149,21 +149,23 @@ Although you have secure ways to communicate, you also need to secure your endpo
 
 Even if you're not worried about the NSA, endpoint security is the weakest link. You need to encrypt your device, switch to a privacy respecting email, use a password manager, turn on 2-factor-authentication, use the tor browser, and ensure Firefox is set up to preserve your privacy.
 
-### Device encryption
+<!--### Device encryption-->
 
-### Change your email provider
 
-### Password manager
 
-### Turn on 2FA
+<!--### Change your email provider-->
 
-### Tor Browser
+<!--### Password manager-->
 
-### Useful Browser Exentions for Firefox
+<!--### Turn on 2FA-->
 
-### Don't trust other peoples devices
+<!--### Tor Browser-->
 
-you can keep a copy of Tails on a USB connected to your keys if you want
+<!--### Useful Browser Exentions for Firefox-->
+
+<!--### Don't trust other peoples devices-->
+
+<!--you can keep a copy of Tails on a USB connected to your keys if you want-->
 
 ## Caveats
 
