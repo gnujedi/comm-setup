@@ -1,6 +1,6 @@
 # comm-setup
 How to set up reasonably secure communications with friends and family.
-
+RANDOM TEXT FOR FUN
 <center>
 ![Use Signal. Use Tor](https://pbs.twimg.com/media/CqF-yfCXgAAL91i.jpg:large)
 
