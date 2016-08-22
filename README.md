@@ -151,7 +151,7 @@ Even if you're not worried about the NSA, endpoint security is the weakest link.
 
 # Device encryption
 
-You should encrypt your device.
+You should encrypt your device. It is simple to do on Android. Go into security settings and select "encrypt device".
 
 <!--### Change your email provider-->
 
