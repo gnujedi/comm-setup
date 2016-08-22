@@ -141,6 +141,42 @@ All other systems, go [here](https://syncthing.net/) to download Syncthing for y
 
 You can setup Syncthing on your Android to easily sync the photos you take to any other system you have Syncthing installed on.
 
+## Next Steps
+
+Although you have secure ways to communicate, you also need to secure your endpoints. 
+
+> "Encryption works. Properly implemented strong crypto systems are one of the few things that you can rely on. Unfortunately, endpoint security is so terrifically weak that NSA can frequently find ways around it." --Edward Snowden
+
+Even if you're not worried about the NSA, endpoint security is the weakest link. You need to encrypt your device, switch to a privacy respecting email, use a password manager, turn on 2-factor-authentication, use the tor browser, and ensure Firefox is set up to preserve your privacy.
+
+### Device encryption
+
+### Change your email provider
+
+### Password manager
+
+### Turn on 2FA
+
+### Tor Browser
+
+### Useful Browser Exentions for Firefox
+
+### Don't trust other peoples devices
+
+you can keep a copy of Tails on a USB connected to your keys if you want
+
+## Caveats
+
+This setup is conditional upon being moderately secure. If your life is at risk *please* use something like Tails. Note that smartphones are tracking devices. If you need higher security and don't want a vist to somewhere to be on a permanent record, **leave your phone on and at home**. NSA et al. look for interesting patterns, so its best to leave your phone on and somewhere where you would normally reside.
+
+Furthermore, the security patching for Android is a mess. If you want a mobile OS that has better security support, use CopperheadOS. CopperheadOS currently has no support for Google Play Store, so you won't be able to use Signal. You could use Silence.im, or Conversations.im instead. It also only supports the Nexus series. 
+
+> A hardened open-source operating system based on Android with PaX, OpenBSD malloc and many other privacy/security features.
+
+> "Copperhead is probably the most exciting thing happening in the world of Android security today." --Chris Soghoian, principal technologist with the Speech, Privacy, and Technology Project at the American Civil Liberties Union
+
+
+
 ---
 
 <p xmlns:dct="http://purl.org/dc/terms/">
