@@ -3,14 +3,7 @@ How to set up reasonably secure communications with friends and family
 
 This guide assumes you have an Android type device and a laptop.
 
-This guide will help you:
-
-* Use privacy friendly messengers
-* Use Tor
-* Encrypt your device
-* Get a password manager (stop reusing passwords for goodness sakes!)
-* Turn on 2-factor-authentication
-
+# Use privacy friendly messengers
 
 ## [Ricochet](https://www.ricochet.im/)
 
@@ -125,7 +118,7 @@ All other systems, go [here](https://syncthing.net/) to download Syncthing for y
 
 You can setup Syncthing on your Android to easily sync the photos you take to any other system you have Syncthing installed on.
 
-## Next Steps
+# Next Steps
 
 Although you have secure ways to communicate, you also need to secure your endpoints. 
 
@@ -133,22 +126,16 @@ Although you have secure ways to communicate, you also need to secure your endpo
 
 Even if you're not worried about the NSA, endpoint security is the weakest link. You need to encrypt your device, switch to a privacy respecting email, use a password manager, turn on 2-factor-authentication, use the tor browser, and ensure Firefox is set up to preserve your privacy.
 
-# Device encryption
+## Device encryption
 
 You should encrypt your device. It is simple to do on Android. Go into security settings and select "encrypt device".
 
-<!--### Change your email provider-->
-
-<!--### Password manager-->
-
-<!--### Turn on 2FA-->
-
-<!--### Tor Browser-->
-
-<!--### Useful Browser Exentions for Firefox-->
-
-<!--### Don't trust other peoples devices-->
-
+<!--## Change your email provider-->
+<!--## Get a password manager (stop reusing passwords for goodness sakes!)-->
+<!--## Turn on 2-factor-authentication-->
+<!--## Tor Browser-->
+<!--## Useful Browser Exentions for Firefox-->
+<!--## Don't trust other peoples devices-->
 <!--you can keep a copy of Tails on a USB connected to your keys if you want-->
 
 ## Caveats
