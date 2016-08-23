@@ -1,11 +1,16 @@
 # comm-setup
-How to set up reasonably secure communications with friends and family.
+How to set up reasonably secure communications with friends and family
 
+This guide assumes you have an Android type device and a laptop.
 
-<!--<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/Snowden">@snowden</a> OPSEC guide:<br>- use Signal<br>- use Tor<br>- use full disk encryption<br>- use a password manager<br>- use two factor auth<br><br>Solid basics.</p>&mdash; the grugq (@thegrugq) <a href="https://twitter.com/thegrugq/status/668767879299399682">November 23, 2015</a></blockquote>-->
-<!--<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+This guide will help you:
 
-This guide assumes you have an Android type device and a laptop. You *should* encrypt your device, get a password manager (stop reusing passwords for goodness sakes!), and use Tor. This guide will run you through putting Tor onto your device, and getting secure communications setup for your friends/family/coworkers/anyone else.
+* Use privacy friendly messengers
+* Use Tor
+* Encrypt your device
+* Get a password manager (stop reusing passwords for goodness sakes!)
+* Turn on 2-factor-authentication
+
 
 ## [Ricochet](https://www.ricochet.im/)
 
