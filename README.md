@@ -150,7 +150,9 @@ You should encrypt your device. It is simple to do on Android. Go into security 
 
 This setup is conditional upon being moderately secure. If your life is at risk *please* use something like Tails. Note that smartphones are tracking devices. If you need higher security and don't want a vist to somewhere to be on a permanent record, **leave your phone on and at home**. NSA et al. look for interesting patterns, so its best to leave your phone on and somewhere where you would normally reside.
 
-Furthermore, the security patching for Android is a mess. If you want a mobile OS that has better security support, use CopperheadOS. CopperheadOS currently has no support for Google Play Store, so you won't be able to use Signal. You could use Silence.im, or Conversations.im instead. It also only supports the Nexus series. 
+Furthermore, the security patching for Android is a mess. If you want a mobile OS that has better security support, use CopperheadOS. CopperheadOS currently has no support (and none planned) for Google Play Store, and only supports the Nexus series. They use the FDroid repository for adding applications.
+
+On CopperheadOS:
 
 > A hardened open-source operating system based on Android with PaX, OpenBSD malloc and many other privacy/security features.
 
