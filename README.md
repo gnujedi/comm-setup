@@ -87,33 +87,6 @@ Silence should replace your default SMS/MMS application. It encrypts messages to
 > Protect your communication in transit and on your phone. Silence (formerly SMSSecure) is a full replacement for the default text messaging application: all messages are encrypted locally and messages to other Silence users are encrypted over the air. Silence works like any other SMS application. There's nothing to sign up for and no new service your friends need to join.
 
 
-
-
-<!--## [Signal](https://whispersystems.org/)-->
-
-<!--Signal is an app that sends secure messages to others who also have the app and can replace your default SMS app. It also supports secure phone calling.-->
-
-<!--![Signal Screenshot](https://whispersystems.org/assets/header/signal-header-3928749d381ba96d54fc66a0673114c2.jpg)-->
-
-<!--> Privacy is possible, Signal makes it easy.-->
-
-<!--> Using Signal, you can communicate instantly while avoiding SMS fees, create groups so that you can chat in real time with all your friends at once, and share media or attachments all with complete privacy. The server never has access to any of your communication and never stores any of your data.-->
-
-<!--> * Say Anything. Signal uses an advanced end to end encryption protocol that provides privacy for every message every time.-->
-<!--* Open Source. Signal is Free and Open Source, enabling anyone to verify its security by auditing the code. Signal is the only private messenger that uses open source peer-reviewed cryptographic protocols to keep your messages safe.-->
-<!--* Be Yourself - Signal uses your existing phone number and address book. There are no separate logins, usernames, passwords, or PINs to manage or lose.-->
-<!--* Group Chat. Signal allows you to create encrypted groups so you can have private conversations with all your friends at once. Not only are the messages encrypted, but the Signal server never has access to any group metadata such as the membership list, group title, or group icon.-->
-<!--* Fast. The Signal protocol is designed to operate in the most constrained environment possible. Using Signal, messages are instantly delivered to friends.-->
-<!--* Speak Freely - Make crystal-clear phone calls to people who live across town, or across the ocean, with no long-distance charges.-->
-
-<!--### How to set it up-->
-
-<!--1. Go to the Google Play Store and install Signal-->
-<!--2. Register with a phone number-->
-<!--3. Sync with your current contacts-->
-<!--4. Set it as your default SMS app-->
-<!--5. Lock down the app with a passcode-->
-
 ## [Ring](https://ring.cx/)
 
 A video chat messenger that has desktop and mobile support. Use this in place of skype. It's peer-to-peer and encrypted by default.
