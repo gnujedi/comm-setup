@@ -124,21 +124,13 @@ Although you have secure ways to communicate, you also need to secure your endpo
 
 > "Encryption works. Properly implemented strong crypto systems are one of the few things that you can rely on. Unfortunately, endpoint security is so terrifically weak that NSA can frequently find ways around it." --Edward Snowden
 
-Even if you're not worried about the NSA, endpoint security is the weakest link. You need to encrypt your device, switch to a privacy respecting email, use a password manager, turn on 2-factor-authentication, use the tor browser, and ensure Firefox is set up to preserve your privacy.
+Even if you're not worried about the NSA, endpoint security is *still* the weakest link. You need to encrypt your device, switch to a privacy respecting email, use a password manager, turn on 2-factor-authentication, use the tor browser, and ensure Firefox is set up to preserve your privacy.
 
 ## Device encryption
 
 You should encrypt your device. It is simple to do on Android. Go into security settings and select "encrypt device".
 
-## Change your email provider
-
-Recommended email providers:
-
-* Openmailbox.org -- Free
-* Posteo.de -- ~$15 per year
-* Mailbox.org -- ~$15 per year
-
-Switching to a new email can be a hassle, but it is worth the effort to get a unique domain name and to protect your privacy. Most often you can get your first name and last name as the email address. This makes your email more professional and memorable.
+![encrypt android](http://cdn.arstechnica.net/wp-content/uploads/2016/03/Screenshot_20160316-122117-640x320.png)
 
 
 ## Get a password manager (stop reusing passwords for goodness sakes!)
@@ -162,34 +154,75 @@ Password Store
 
 ```
 
-You can organize the password files anyway you like, placing different password files into more nested folders or whatever! See the password-store page for more information.
+You can organize the password files anyway you like, placing different password files into more nested folders or whatever! There are versions for Linux, Windows, MacOS, Android, iOS, and an assortment of GUI tools. See the [password-store](https://www.passwordstore.org/) page for more information.
+
+Here is password store on Android:
+
+![passwordstoreandroid](https://lh5.ggpht.com/OeDm8iY4qn5XjbhHgMoGjFgjG27Be3VqpEb0ifTwqyYfVMs1iv7IKCXK0OjFfjFBiQ=h900)
 
 ## Turn on 2-factor-authentication
 
-Download FreeOTP onto your device from the Fdroid repository, and set it up with your accounts. This protects your accounts by authenticating a second way.
+Download FreeOTP onto your device from the Fdroid repository, and set it up with your accounts. This protects your accounts by authenticating a second way. 2FA is highly recommended.
 
 ![FreeOTP](https://lh4.ggpht.com/mCBlwc-kwUaIQZXJUjLNorwWUhJN37ib_D6iik54cHP3l__YCE65FKSPKioAT-0ljsjn=h900)
 
+## Use a VPN
 
-<!--## Tor Browser-->
+Using a VPN is way to keep all of your browsing private from your Internet service provider. It doesn't keep your information private from your VPN provider however, so you must trust the VPN provider. I recommend a VPN since it is a step in the right direction for privacy and will keep you secure over open WiFi networks. This is because a VPN wraps your data in a layer of encryption that goes directly to the VPN provider. Think of a VPN as another layer of your privacy.
 
-<!--## Useful Browser Exentions for Firefox-->
+Note that a VPN will cost money, choose wisely. 
 
-<!--## Don't trust other peoples devices-->
+On Debian, you can <code>sudo apt-get install network-manager-openvpn-gnome</code> and then use the Network Manager to connect to your VPN.
 
-<!--you can keep a copy of Tails on a USB connected to your keys if you want-->
+I recommend visiting [privacytools.io](https://www.privacytools.io/#vpn) in order to make an informed decision on a VPN provider. Personally, I use [Mullvad](https://mullvad.net/en/) as my VPN provider and I have enjoyed their service.
 
-## Caveats
+## Tor Browser
+
+You should be using the Tor browser as your main browser when you aren't logging into services that know you. For instance if you are reading the news, window shopping, youtube watching, or looking things up, you should fire up your Tor browser. [Download the Tor Browser for your platform](https://www.torproject.org/download/download.html.en).
+
+## Useful Browser Exentions for Firefox
+
+You should be using Firefox as your main browser for sites where you log in (school, work, bank, etc.). You should install the following extensions in order to make your browsing safer:
+
+* [HTTPS-Everywhere](https://www.eff.org/HTTPS-everywhere) to force HTTPS connections whenever possible
+* [Privacy Badger](https://www.eff.org/privacybadger) to combat tracking
+* [Disconnect](https://disconnect.me/disconnect) to combat tracking
+* [uBlock](https://addons.mozilla.org/en-us/firefox/addon/ublock/) to block ads
+* [Self-destructing cookies](https://addons.mozilla.org/en-us/firefox/addon/self-destructing-cookies/) to auto kill cookies when tab is closed
+* [Random Agent Spoofer](https://addons.mozilla.org/en-us/firefox/addon/random-agent-spoofer/) to make our browser look like it is another type of browser to anyone watching the connection
+* [Dsiable WebRTC](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/) for push button WebRTC blocking/access
+* [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+* [Zotero](https://www.zotero.org/download/) to save your research
+
+
+## Don't trust other peoples devices
+
+You really have no idea what kind of spyware/malware craziness other systems have on them. Don't trust other peoples devices. If you need to use someone else's computer, you can use a live operating system that lives on a USB drive. I recommend that you install [Tails](https://tails.boum.org/)(the amenisic incognito live system) onto a USB drive and keeping it on your keychain/with you somehow. You can set it up to securely store your passphrase database, GPG key, email login and some files. This way, if your computer crashes or you need to use someone else's computer, you always have a way to access your email, passphrases, and a few files. Tails is great because it uses Tor by default and contains other security tools. Tails is based off of Debian GNU/Linux.
+
+## Change your email provider
+
+Recommended email providers:
+
+* [Openmailbox](https://www.openmailbox.org/) (free)
+* [Posteo](https://posteo.de/en) (~$15/year)
+* [Mailbox](https://mailbox.org/) (~$15/year)
+
+
+Switching to a new email can be a hassle, but it is worth the effort to get a unique domain name and to protect your privacy. Most often you can get your first name and last name as the email address. This makes your email more professional and memorable. You can use [DAVdroid](https://davdroid.bitfire.at/) to sync your contacts and calendar to your mobile.
+
+# Caveats
 
 This setup is conditional upon being moderately secure. If your life is at risk *please* use something like Tails. Note that smartphones are tracking devices. If you need higher security and don't want a vist to somewhere to be on a permanent record, **leave your phone on and at home**. NSA et al. look for interesting patterns, so its best to leave your phone on and somewhere where you would normally reside.
 
-Furthermore, the security patching for Android is a mess. If you want a mobile OS that has better security support, use CopperheadOS. CopperheadOS currently has no support (and none planned) for Google Play Store, and only supports the Nexus series. They use the FDroid repository for adding applications.
-
-On CopperheadOS:
+Furthermore, the security patching for Android is a mess. If you want a mobile OS that has better security support, use CopperheadOS. 
 
 > A hardened open-source operating system based on Android with PaX, OpenBSD malloc and many other privacy/security features.
 
 > "Copperhead is probably the most exciting thing happening in the world of Android security today." --Chris Soghoian, principal technologist with the Speech, Privacy, and Technology Project at the American Civil Liberties Union
+
+CopperheadOS currently has no support (and none planned) for Google Play Store, and only supports the Nexus series. They use the FDroid repository for adding applications.
+
+
 
 
 
