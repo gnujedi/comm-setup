@@ -130,12 +130,34 @@ Even if you're not worried about the NSA, endpoint security is the weakest link.
 
 You should encrypt your device. It is simple to do on Android. Go into security settings and select "encrypt device".
 
-<!--## Change your email provider-->
-<!--## Get a password manager (stop reusing passwords for goodness sakes!)-->
-<!--## Turn on 2-factor-authentication-->
+## Change your email provider
+
+Recommended email providers:
+
+* Openmailbox.org -- Free
+* Posteo.de -- ~$15 per year
+* Mailbox.org -- ~$15 per year
+
+Switching to a new email can be a hassle, but it is worth the effort to get a unique domain name and to protect your privacy. Most often you can get your first name and last name as the email address. This makes your email more professional and memorable.
+
+
+## Get a password manager (stop reusing passwords for goodness sakes!)
+
+Download Password-store
+
+## Turn on 2-factor-authentication
+
+Download FreeOTP onto your device from the Fdroid repository, and set it up with your accounts. This protects your accounts by authenticating a second way.
+
+![FreeOTP](https://lh4.ggpht.com/mCBlwc-kwUaIQZXJUjLNorwWUhJN37ib_D6iik54cHP3l__YCE65FKSPKioAT-0ljsjn=h900)
+
+
 <!--## Tor Browser-->
+
 <!--## Useful Browser Exentions for Firefox-->
+
 <!--## Don't trust other peoples devices-->
+
 <!--you can keep a copy of Tails on a USB connected to your keys if you want-->
 
 ## Caveats
