@@ -130,7 +130,7 @@ Even if you're not worried about the NSA, endpoint security is *still* the weake
 
 You should encrypt your device. It is simple to do on Android. Go into security settings and select "encrypt device".
 
-![encrypt android](http://cdn.arstechnica.net/wp-content/uploads/2016/03/Screenshot_20160316-122117-640x320.png)
+![encrypt android](http://www.howtogeek.com/wp-content/uploads/2016/03/324x576xScreenshot_2016-03-29-12-18-12-576x1024.png.pagespeed.gp+jp+jw+pj+js+rj+rp+rw+ri+cp+md.ic.zqMUFynwnC.png)
 
 
 ## Get a password manager (stop reusing passwords for goodness sakes!)
