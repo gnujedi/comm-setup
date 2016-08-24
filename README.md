@@ -197,7 +197,7 @@ You should be using Firefox as your main browser for sites where you log in (sch
 
 ## Don't trust other peoples devices
 
-You really have no idea what kind of spyware/malware craziness other systems have on them. Don't trust other peoples devices. If you need to use someone else's computer, you can use a live operating system that lives on a USB drive. I recommend that you install [Tails](https://tails.boum.org/)(the amenisic incognito live system) onto a USB drive and keeping it on your keychain/with you somehow. You can set it up to securely store your passphrase database, GPG key, email login and some files. This way, if your computer crashes or you need to use someone else's computer, you always have a way to access your email, passphrases, and a few files. Tails is great because it uses Tor by default and contains other security tools. Tails is based off of Debian GNU/Linux.
+You really have no idea what kind of spyware/malware craziness other systems have on them. Don't trust other peoples devices. If you need to use someone else's computer, you can use a live operating system that lives on a USB drive. I recommend that you install [Tails](https://tails.boum.org/) (the amenisic incognito live system) onto a USB drive and keep it on your keychain/with you somehow. You can set it up to securely store your passphrase database, GPG key, email login and some files. This way, if your computer crashes or you need to use someone else's computer, you always have a way to access your email, passphrases, and a few files. Tails is great because it uses Tor by default and contains other security tools. Tails is based off of Debian GNU/Linux.
 
 ## Change your email provider
 
