@@ -1,4 +1,4 @@
-# comm-setup
+# Comm-setup
 How to set up reasonably secure communications with friends and family
 
 This guide assumes you have an Android type device and a laptop.
