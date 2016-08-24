@@ -143,7 +143,7 @@ Switching to a new email can be a hassle, but it is worth the effort to get a un
 
 ## Get a password manager (stop reusing passwords for goodness sakes!)
 
-I recommend [password-store](https://www.passwordstore.org/), a cross-platform and simple manager that encrypts your passwords with a PGP key. It can generate passwords for you, or you can insert your own. On Debian GNU/Linux, the prefered operating mode is to use it in terminal. Once its set it up, all you do is call <code>pass</code> and something like the following example appears:
+I recommend [password-store](https://www.passwordstore.org/), a cross-platform and simple manager that encrypts your passwords with a PGP key. It can generate passwords for you, or you can insert your own. On Debian GNU/Linux, the prefered operating mode is to use it in terminal. Once you set it up, all you do is call <code>pass</code> and something like the following example appears:
 
 ```
 
