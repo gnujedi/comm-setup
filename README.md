@@ -146,6 +146,7 @@ Switching to a new email can be a hassle, but it is worth the effort to get a un
 I recommend [password-store](https://www.passwordstore.org/), a cross-platform and simple manager that encrypts your passwords with a PGP key. It can generate passwords for you, or you can insert your own. On Debian GNU/Linux, the prefered operating mode is to use it in terminal. Once its set it up, all you do is call <code>pass</code> and something like the following example appears:
 
 <code>
+
 zx2c4@laptop ~ $ pass
 Password Store
 ├── Business
@@ -158,6 +159,7 @@ Password Store
     ├── bank
     ├── freebox
     └── mobilephone
+
 </code>
 
 You can organize the password files anyway you like, placing different password files into more nested folders or whatever! See the password-store page for more information.
