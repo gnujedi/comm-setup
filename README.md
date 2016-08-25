@@ -186,13 +186,16 @@ You should be using Firefox as your main browser for sites where you log in (sch
 
 * [HTTPS-Everywhere](https://www.eff.org/HTTPS-everywhere) to force HTTPS connections whenever possible
 * [Privacy Badger](https://www.eff.org/privacybadger) to combat tracking
-* [Disconnect](https://disconnect.me/disconnect) to combat tracking
-* [uBlock](https://addons.mozilla.org/en-us/firefox/addon/ublock/) to block ads
+* [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) to block ads
 * [Self-destructing cookies](https://addons.mozilla.org/en-us/firefox/addon/self-destructing-cookies/) to auto kill cookies when tab is closed
 * [Random Agent Spoofer](https://addons.mozilla.org/en-us/firefox/addon/random-agent-spoofer/) to make our browser look like it is another type of browser to anyone watching the connection
 * [Dsiable WebRTC](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/) for push button WebRTC blocking/access
 * [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+* [Noscript](https://noscript.net/) This allows you to block unfriendly scripts. It takes time to learn, but is worth the effort.
 * [Zotero](https://www.zotero.org/download/) to save your research
+
+You should also go into the privacy settings of firefox, find the history section, select "custom settings for history" and select "clear history when firefox closes." You may also want to disable Pocket, location sharing, and the remembering passwords feature.
+
 
 
 ## Don't trust other peoples devices
