@@ -180,7 +180,7 @@ I recommend visiting [privacytools.io](https://www.privacytools.io/#vpn) in orde
 
 You should be using the Tor browser as your main browser when you aren't logging into services that know you. For instance if you are reading the news, window shopping, youtube watching, or looking things up, you should fire up your Tor browser. [Download the Tor Browser for your platform](https://www.torproject.org/download/download.html.en).
 
-## Useful Browser Exentions for Firefox
+## Useful Browser Extensions for Firefox
 
 You should be using Firefox as your main browser for sites where you log in (school, work, bank, etc.). You should install the following extensions in order to make your browsing safer:
 
@@ -202,6 +202,14 @@ You should also go into the privacy settings of firefox, find the history sectio
 
 You really have no idea what kind of spyware/malware craziness other systems have on them. Don't trust other peoples devices. If you need to use someone else's computer, you can use a live operating system that lives on a USB drive. I recommend that you install [Tails](https://tails.boum.org/) (the amenisic incognito live system) onto a USB drive and keep it on your keychain/with you somehow. You can set it up to securely store your passphrase database, GPG key, email login and some files. This way, if your computer crashes or you need to use someone else's computer, you always have a way to access your email, passphrases, and a few files. Tails is great because it uses Tor by default and contains other security tools. Tails is based off of Debian GNU/Linux.
 
+Enable a guest WiFi account to protect your internal network from guest devices. This keeps your personal devices isolated. It also is an important social aspect to have an openwireless access point as Bruce Schneier points out:
+
+> Whenever I talk or write about my own security setup, the one thing that surprises people -- and attracts the most criticism -- is the fact that I run an open wireless network at home. There's no password. There's no encryption. Anyone with wireless capability who can see my network can use it to access the internet.
+
+> To me, it's basic politeness. Providing internet access to guests is kind of like providing heat and electricity, or a hot cup of tea.
+
+Running an openwireless access point *can* open you to risks if done improperly. Please make sure to run the guest network through a VPN or Tor. This makes it so that whatever guests do on the network, it is done in an anonymized way. You can also bandwith restrict the guest network in order for your private network to have priority.
+
 ## Change your email provider
 
 Recommended email providers:
@@ -209,6 +217,7 @@ Recommended email providers:
 * [Openmailbox](https://www.openmailbox.org/) (free)
 * [Posteo](https://posteo.de/en) (~$15/year)
 * [Mailbox](https://mailbox.org/) (~$15/year)
+* [Protonmail](https://protonmail.com/) (free, upgraded account ~$50/year)
 
 
 Switching to a new email can be a hassle, but it is worth the effort to get a unique domain name and to protect your privacy. Most often you can get your first name and last name as the email address. This makes your email more professional and memorable. You can use [DAVdroid](https://davdroid.bitfire.at/) to sync your contacts and calendar to your mobile.
@@ -225,8 +234,7 @@ Furthermore, the security patching for Android is a mess. If you want a mobile O
 
 CopperheadOS currently has no support (and none planned) for Google Play Store, and only supports the Nexus series. They use the FDroid repository for adding applications.
 
-
-
+You really shouldn't be using Microsoft Windows or Apple MacOS. These operating systems do not respect your privacy. Use a GNU/Linux distribution like Debian instead.
 
 
 ---
