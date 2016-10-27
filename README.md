@@ -9,7 +9,7 @@ This guide assumes you have an Android type device and a laptop.
 
 Ricochet is an instant messenger for the desktop that is simple and easy to use. If I have a laptop open, this is my go to messenger with family. Currently, it only supports text, but it gives the best security and usuability. 
 
-![Ricochet Screenshot](ricochetscreen.png)
+![Ricochet Screenshot](https://github.com/gnujedi/comm-setup/blob/master/ricochetscreen.png)
 
 > Ricochet is a different approach to instant messaging that **doesn't trust anyone** in protecting your privacy.
 
