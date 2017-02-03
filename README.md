@@ -5,7 +5,7 @@ This guide assumes you have an Android type device and a laptop.
 
 # Use privacy friendly messengers
 
-## [Ricochet](https://www.ricochet.im/)
+## [Ricochet](https://www.ricochet.im/) [Desktop]
 
 Ricochet is an instant messenger for the desktop that is simple and easy to use. If I have a laptop open, this is my go to messenger with family. Currently, it only supports text, but it gives the best security and usuability. 
 
@@ -22,7 +22,7 @@ It uses the [Tor network](https://www.torproject.org/) in order to anonymize you
 
 Ricochet and Conversations both utilize the Tor network to keep you safer.
 
-### How to set it up
+#### How to set it up
 
 If you're on GNU/Linux running Debian Stretch or higher, simply <code>sudo apt-get install ricochet-im</code>
 
@@ -31,9 +31,9 @@ All other systems go to the ricochet.im main page and select your operating syst
 Set it up with someone else and add them as a contact.
 
 
-## [Conversations](https://conversations.im/)
+## [Conversations](https://conversations.im/) [Mobile/Desktop(with Gajim)]
 
-An amazing messenger for Android. This is the primary messenger my family uses to stay in touch. You'll need [Orbot](https://guardianproject.info/apps/orbot/) which is Tor for Android. I recommend using [F-droid's](https://f-droid.org/) repository to download Orbot and Conversations. F-droid is a 3rd party app store that contains all free software (free as in free beer and free as in freedom).
+An amazing messenger for Android. This is the primary messenger my family uses to stay in touch. I recommend using [F-droid's](https://f-droid.org/) repository to download Conversations. F-droid is a 3rd party app store that contains all free software (free as in free beer and free as in freedom).
 
 ![Conversations screenshot](https://conversations.im/images/screenshot_encryption_selection.jpg)
 
@@ -66,17 +66,14 @@ Conversations has OMEMO, a fork of the Signal protocol
 
 ### How to set it up
 
-1. Install F-droid
-2. Add the Guardian Projects repository to F-droid and refresh
-3. Install Orbot
-4. Install Conversations
-5. Open conversations and tap "create account"
-6. Pick a username
-7. on the add account screen, go to the upper right menu, click settings
-8. In the settings menu, go all the way down to expert settings, and select "connect via tor", 
-9. Go back and finish the registration process
+1. Install [F-droid](https://f-droid.org)
+2. Install Conversations
+3. Open conversations and tap "create account"
+4. Pick a username
 
-## [Silence](https://silence.im/)
+If want to use the Tor network, install orbot from F-droid and enable it under advanced settings in the conversations app.
+
+## [Silence](https://silence.im/) [Mobile]
 
 Silence should replace your default SMS/MMS application. It encrypts messages to other silence users, and sends normal SMS/MMS to everyone else. It also supports encrypting the database, uses the Signal protocol, and doesn't require signing up for anything. 
 
@@ -85,24 +82,14 @@ Silence should replace your default SMS/MMS application. It encrypts messages to
 > Protect your communication in transit and on your phone. Silence (formerly SMSSecure) is a full replacement for the default text messaging application: all messages are encrypted locally and messages to other Silence users are encrypted over the air. Silence works like any other SMS application. There's nothing to sign up for and no new service your friends need to join.
 
 
-## [Ring](https://ring.cx/)
+## [Riot](https://riot.im) [Mobile/Desktop/Web]
 
-A video chat messenger that has desktop and mobile support. Use this in place of skype. It's peer-to-peer and encrypted by default.
+Easy video, voice, and group collaboration. Sign up on their website, or download the app through F-droid. Be sure to enable e2e after creating a group.
 
-![ring screenshot](https://ring.cx/sites/ring.cx/files/styles/desktop_big/public/screens/sfl_ring_captureecrandesktop-en-elcapitan_0.jpg?itok=8hsFx5Su)
-
-> Ring is a free software for communication that allows its users to make audio or video calls, in pairs or groups, and to send messages, safely and freely, in confidence.
-
-### How to set it up
-
-If you're on GNU/Linux running Debian Stretch or higher, simply <code>sudo apt-get install ring</code>
-
-All other systems, go [here](https://ring.cx/en/download) to download Ring for your system.
-
-You can use Ring on your Android to video chat privately.
+![Riot screenshot](https://lh3.googleusercontent.com/12Tp_H5PssJjR6vB5kCH5Iw-Z4eG8m_ZkSF239HU-5miIkjei57Pym19ObNCmiFCf18=h900-rw)
 
 
-## [Syncthing](https://syncthing.net/)
+## [Syncthing](https://syncthing.net/) [Mobile/Desktop]
 
 Syncs files between devices. Use it to share files with family and to backup files from your phone to your desktop.
 
@@ -180,19 +167,12 @@ I recommend visiting [privacytools.io](https://www.privacytools.io/#vpn) in orde
 
 You should be using the Tor browser as your main browser when you aren't logging into services that know you. For instance if you are reading the news, window shopping, youtube watching, or looking things up, you should fire up your Tor browser. [Download the Tor Browser for your platform](https://www.torproject.org/download/download.html.en).
 
-## Useful Browser Extensions for Firefox
-
-You should be using Firefox as your main browser for sites where you log in (school, work, bank, etc.). You should install the following extensions in order to make your browsing safer:
+## Useful Browser Extensions
+You should be using Firefox (or Chromium if you're on Linux) as your main browser for sites where you log in (school, work, bank, etc.). You should install the following extensions in order to make your browsing safer:
 
 * [HTTPS-Everywhere](https://www.eff.org/HTTPS-everywhere) to force HTTPS connections whenever possible
 * [Privacy Badger](https://www.eff.org/privacybadger) to combat tracking
 * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) to block ads
-* [Self-destructing cookies](https://addons.mozilla.org/en-us/firefox/addon/self-destructing-cookies/) to auto kill cookies when tab is closed
-* [Random Agent Spoofer](https://addons.mozilla.org/en-us/firefox/addon/random-agent-spoofer/) to make our browser look like it is another type of browser to anyone watching the connection
-* [Dsiable WebRTC](https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/) for push button WebRTC blocking/access
-* [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
-* [Noscript](https://noscript.net/) This allows you to block unfriendly scripts. It takes time to learn, but is worth the effort.
-* [Zotero](https://www.zotero.org/download/) to save your research
 
 You should also go into the privacy settings of firefox, find the history section, select "custom settings for history" and select "clear history when firefox closes." You may also want to disable Pocket, location sharing, and the remembering passwords feature.
 
