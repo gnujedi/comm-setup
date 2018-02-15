@@ -1,102 +1,70 @@
 # Comm-setup
 How to set up reasonably secure communications with friends and family
 
-This guide assumes you have an Android type device and a laptop.
+These are my recommendations. Use what works for you.
 
-# Use privacy friendly messengers
-
-## [Ricochet](https://www.ricochet.im/) [Desktop]
-
-Ricochet is an instant messenger for the desktop that is simple and easy to use. If I have a laptop open, this is my go to messenger with family. Currently, it only supports text, but it gives the best security and usuability. 
-
-![Ricochet Screenshot](https://raw.githubusercontent.com/gnujedi/comm-setup/master/ricochetscreen.png)
-
-> Ricochet is a different approach to instant messaging that **doesn't trust anyone** in protecting your privacy.
-
-> * *Eliminate metadata*. Nobody knows who you are, who you talk to, or what you say.
-> * *Stay anonymous*. Share what you want, without sharing your identity and location.
-> * *Nobody in the middle*. There are no servers to monitor, censor, or hack.
-> * *Safe by default*. Security isn't secure until it's automatic and easy to use.
-
-It uses the [Tor network](https://www.torproject.org/) in order to anonymize you. What's the Tor network? Watch the [Tor Project Animation](https://www.youtube.com/watch?v=JWII85UlzKw). A quick explanation is that Tor hides your location from people watching your connection (NSA and Facebook alike) and thus it *can* make you anonymous.
-
-Ricochet and Conversations both utilize the Tor network to keep you safer.
-
-#### How to set it up
-
-If you're on GNU/Linux running Debian Stretch or higher, simply <code>sudo apt-get install ricochet-im</code>
-
-All other systems go to the ricochet.im main page and select your operating system [here](https://www.ricochet.im/)
-
-Set it up with someone else and add them as a contact.
-
-
-## [Conversations](https://conversations.im/) [Mobile/Desktop(with Gajim)]
-
-An amazing messenger for Android. This is the primary messenger my family uses to stay in touch. I recommend using [F-droid's](https://f-droid.org/) repository to download Conversations. F-droid is a 3rd party app store that contains all free software (free as in free beer and free as in freedom).
-
-![Conversations screenshot](https://conversations.im/images/screenshot_encryption_selection.jpg)
-
-Conversations is:
-
-> A free and open source Jabber/XMPP client for Android. Easy to use, reliable, battery friendly. With built-in support for images, group chats and e2e encryption.
-
-> Design principles
-* Be as beautiful and easy to use as possible without sacrificing security or privacy
-* Rely on existing, well established protocols
-* Do not require a Google Account or specifically Google Cloud Messaging (GCM)
-* Require as little permissions as possible
-
-> Features
-* End-to-end encryption with either OMEMO, OTR or OpenPGP
-* Sending and receiving images
-* Intuitive UI that follows Android Design guidelines
-* Pictures / Avatars for your Contacts
-* Syncs with desktop client
-* Conferences (with support for bookmarks)
-* Address book integration
-* Multiple Accounts / unified inbox
-* Very low impact on battery life
-
-Conversations has OMEMO, a fork of the Signal protocol
-
-> OMEMO gives you all the advantages you would expect from a modern-day encryption protocol like Future and Forward Secrecy and deniability while allowing you to keep the benefits of message synchronization and offline delivery. OMEMO not only gives you a better encryption features than OpenPGP and OTR but is also much easier to setup. OMEMO is the encryption you can actually use in your daily life. Turn it on once and forget you ever did.
-
-*And*, it supports the Tor network.
-
-### How to set it up
-
-1. Install [F-droid](https://f-droid.org)
-2. Install Conversations
-3. Open conversations and tap "create account"
-4. Pick a username
-
-If want to use the Tor network, install orbot from F-droid and enable it under advanced settings in the conversations app.
+<hr>
 
 
 
-## [Riot](https://riot.im) [Mobile/Desktop/Web]
+## Signal
 
-Easy video, voice, and group collaboration. Sign up on their website, or download the app through F-droid. Be sure to enable e2e after creating a group.
+> [Signal](https://signal.org/) is an encrypted instant messaging and voice calling application for Android and iOS. It uses the Internet to send one-to-one and group messages, which can include images and video messages, and make one-to-one voice calls. Signal uses standard cellular mobile numbers as identifiers and end-to-end encryption to secure all communications to other Signal users.
 
-![Riot screenshot](https://lh3.googleusercontent.com/12Tp_H5PssJjR6vB5kCH5Iw-Z4eG8m_ZkSF239HU-5miIkjei57Pym19ObNCmiFCf18=h900-rw)
+Easiest to get people set up on and is on all the major platforms. Video and audio calling. Perfect for group chat with friends and/or family. I would recommend this first---it's super easy to use and on Android it can be the default SMS app. The amount of metadata they can give away is [*very* little](https://signal.org/bigbrother).
+
+<hr>
+
+## Conversations
+
+> [Conversations](https://conversations.im) is a Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience.
+
+Go to XMPP messenger. Provides a way to connect to people in a more traditional IM way. It uses the OMEMO protocol to encrypt messages (based on the Signal protocol) and has lots of cool features.
+
+<hr>
+
+## Riot
+
+[Riot](https://riot.im) is a matrix client that allows collaboration across a wide variety of other apps and services (ie Slack). Video and audio chat/conference is supported.
 
 
-## [Syncthing](https://syncthing.net/) [Mobile/Desktop]
+An anecdote [from another Reddit user](https://www.reddit.com/r/privacytoolsIO/comments/6k447r/anyone_uses_riotim/djji0fc/) that I like:
 
-Syncs files between devices. Use it to share files with family and to backup files from your phone to your desktop.
+>> Is it a good alternative to Signal or Wire?
 
-![Syncthing screenshot](https://syncthing.net/images/screenshot-720.jpg)
+> It's more of a Discord alternative
 
-> Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.
+>>Does it work well?
 
-### How to set it up
+> Yes , in my experience it's very stable
 
-If you're on GNU/Linux running Debian Stretch or higher, simply <code>sudo apt-get install syncthing</code>
 
-All other systems, go [here](https://syncthing.net/) to download Syncthing for your system.
+<hr>
 
-You can setup Syncthing on your Android to easily sync the photos you take to any other system you have Syncthing installed on.
+## Ricochet
+
+> [Ricochet](https://ricochet.im) uses the Tor network to reach your contacts without relying on messaging servers. It creates a hidden service, which is used to rendezvous with your contacts without revealing your location or IP address.
+
+Desktop text chatting. 
+
+<hr>
+
+
+## Syncthing
+
+> [Syncthing](https://syncthing.net) replaces proprietary sync and cloud services with something open, trustworthy and decentralized. 
+
+To keep projects in sync, libraries of files that can change up-to-date, or just as a Dropbox replacement.
+
+<hr>
+
+## Onionshare
+
+> [OnionShare](https://onionshare.org) is an open source tool that lets you securely and anonymously share a file of any size.
+
+Sharing files with people when Syncthing would be overkill or annoying to setup.
+
+<hr>
 
 # Next Steps
 
