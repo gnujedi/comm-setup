@@ -110,10 +110,7 @@ Here is password store on Android:
 
 ## Turn on 2-factor-authentication
 
-Download FreeOTP onto your device from the Fdroid repository, and set it up with your accounts. This protects your accounts by authenticating a second way. 2FA is highly recommended.
-
-![FreeOTP](https://lh4.ggpht.com/mCBlwc-kwUaIQZXJUjLNorwWUhJN37ib_D6iik54cHP3l__YCE65FKSPKioAT-0ljsjn=h900)
-
+Download andOTP onto your device from the Fdroid repository, and set it up with your accounts. This protects your accounts by authenticating a second way. 2FA is highly recommended.
 
 ## Tor Browser
 
@@ -122,9 +119,11 @@ You should be using the Tor browser as your main browser when you aren't logging
 ## Useful Browser Extensions
 You should be using Firefox as your main browser for sites where you log in (school, work, github, bank, etc.). You should install the following extensions in order to make your browsing safer:
 
-* [HTTPS-Everywhere](https://www.eff.org/HTTPS-everywhere) to force HTTPS connections whenever possible
-* [Privacy Badger](https://www.eff.org/privacybadger) to combat tracking
-* [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) to block ads
+- Privacy Badger for blocking general tracking
+- Ublock Origin for blocking ads
+- Cookie AutoDelete for managing cookies
+- HTTPS Everywhere for forcing TLS connections
+- Decentraleyes
 
 You should also go into the privacy settings of firefox, find the history section, select "custom settings for history" and select "clear history when firefox closes." You may also want to disable Pocket, location sharing, and the remembering passwords feature.
 
@@ -146,11 +145,9 @@ Running an openwireless access point *can* open you to risks if done improperly.
 
 Recommended email providers:
 
-* [Openmailbox](https://www.openmailbox.org/) (free)
 * [Posteo](https://posteo.de/en) (~$15/year)
 * [Mailbox](https://mailbox.org/) (~$15/year)
 * [Protonmail](https://protonmail.com/) (free, upgraded account ~$50/year)
-
 
 Switching to a new email can be a hassle, but it is worth the effort to get a unique domain name and to protect your privacy. Most often you can get your first name and last name as the email address. This makes your email more professional and memorable. You can use [DAVdroid](https://davdroid.bitfire.at/) to sync your contacts and calendar to your mobile.
 
