@@ -73,13 +73,6 @@ Conversations has OMEMO, a fork of the Signal protocol
 
 If want to use the Tor network, install orbot from F-droid and enable it under advanced settings in the conversations app.
 
-## [Silence](https://silence.im/) [Mobile]
-
-Silence should replace your default SMS/MMS application. It encrypts messages to other silence users, and sends normal SMS/MMS to everyone else. It also supports encrypting the database, uses the Signal protocol, and doesn't require signing up for anything. 
-
-![Silence screenshot](https://lh3.googleusercontent.com/HZpvtxh8xKZGDKDmX64y3hVDQRgI6W-VJ82gJ8djIse6ZIrJLcDPqE_-paiXase29z0Q=h900)
-
-> Protect your communication in transit and on your phone. Silence (formerly SMSSecure) is a full replacement for the default text messaging application: all messages are encrypted locally and messages to other Silence users are encrypted over the air. Silence works like any other SMS application. There's nothing to sign up for and no new service your friends need to join.
 
 
 ## [Riot](https://riot.im) [Mobile/Desktop/Web]
@@ -153,22 +146,13 @@ Download FreeOTP onto your device from the Fdroid repository, and set it up with
 
 ![FreeOTP](https://lh4.ggpht.com/mCBlwc-kwUaIQZXJUjLNorwWUhJN37ib_D6iik54cHP3l__YCE65FKSPKioAT-0ljsjn=h900)
 
-## Use a VPN
-
-Using a VPN is way to keep all of your browsing private from your Internet service provider. It doesn't keep your information private from your VPN provider however, so you must trust the VPN provider. I recommend a VPN since it is a step in the right direction for privacy and will keep you secure over open WiFi networks. This is because a VPN wraps your data in a layer of encryption that goes directly to the VPN provider. Think of a VPN as another layer of your privacy.
-
-Note that a VPN will cost money, choose wisely. 
-
-On Debian, you can <code>sudo apt-get install network-manager-openvpn-gnome</code> and then use the Network Manager to connect to your VPN.
-
-I recommend visiting [privacytools.io](https://www.privacytools.io/#vpn) in order to make an informed decision on a VPN provider. Personally, I use [Mullvad](https://mullvad.net/en/) as my VPN provider and I have enjoyed their service.
 
 ## Tor Browser
 
 You should be using the Tor browser as your main browser when you aren't logging into services that know you. For instance if you are reading the news, window shopping, youtube watching, or looking things up, you should fire up your Tor browser. [Download the Tor Browser for your platform](https://www.torproject.org/download/download.html.en).
 
 ## Useful Browser Extensions
-You should be using Firefox (or Chromium if you're on Linux) as your main browser for sites where you log in (school, work, bank, etc.). You should install the following extensions in order to make your browsing safer:
+You should be using Firefox as your main browser for sites where you log in (school, work, github, bank, etc.). You should install the following extensions in order to make your browsing safer:
 
 * [HTTPS-Everywhere](https://www.eff.org/HTTPS-everywhere) to force HTTPS connections whenever possible
 * [Privacy Badger](https://www.eff.org/privacybadger) to combat tracking
